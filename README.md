@@ -4,8 +4,8 @@ This is a blank React Native project setup with Viro.
 
 ## Installation
 
-1. `git clone https://github.com/ViroCommunity/starter-kit.git`
-2. `cd starter-kit`
+1. `git clone https://github.com/ViroCommunity/ar-demos.git`
+2. `cd ar-demos`
 3. `npm install`
 4. `npx pod-install` (iOS)
 5. `npx react-native run-android` or `npx react-native run-ios`
