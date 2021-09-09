@@ -8,13 +8,10 @@ import {
   Animated,
   Easing,
   Image,
-  ActivityIndicator,
-  Alert,
   Platform,
 } from 'react-native';
 import {
   ViroARSceneNavigator,
-  ViroConstants,
 } from '@viro-community/react-viro';
 
 var joystickWidth = 200;
