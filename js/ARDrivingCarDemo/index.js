@@ -12,7 +12,6 @@ import {
   Alert,
   Platform,
 } from 'react-native';
-import * as PlatformUtils from './PlatformUtils';
 import {
   ViroARSceneNavigator,
   ViroConstants,
@@ -87,7 +86,7 @@ export default class ARDrivingCar extends Component {
       + (this.state.right ? "Right," : "") + (this.state.down ? "Down," : "")
 
     return (
-      <SafeAreaView>
+      <SafeAreaView style={styles.outerContainer}>
         <View style={styles.outerContainer}>
 
           {this.getViroARView()}
@@ -393,6 +392,7 @@ export default class ARDrivingCar extends Component {
       justifyContent: 'center',
       top: 0,
       left: 0,
+      paddingTop: 0,
     }
 
     let instructions = "Scan the ground and tap Place to begin."
@@ -452,6 +452,7 @@ var styles = StyleSheet.create({
     position: 'absolute',
     // Use padding vs "top"/"left" so that the entire zone is tappable
     paddingLeft: 15,
+    paddingTop: 27,
   },
   exitImage: {
     height: 21,
