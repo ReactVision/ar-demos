@@ -452,7 +452,6 @@ var styles = StyleSheet.create({
     position: 'absolute',
     // Use padding vs "top"/"left" so that the entire zone is tappable
     paddingLeft: 15,
-    paddingTop: 27 + paddingTop,
   },
   exitImage: {
     height: 21,
@@ -480,7 +479,7 @@ var styles = StyleSheet.create({
     width: 30,
     height: 30,
     right: 15,
-    top: 24 + paddingTop,
+    top: 24,
   },
   resetImage: {
     width: 30,
